@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Pemasaran</name>
+   <name>04. Input Status Pre-Screening</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>2517aa11-a38e-4547-9b73-b4b5b9144a75</testCaseGuid>
+   <testCaseGuid>fcb76973-7cca-4cd1-addc-6fd122d0ac4b</testCaseGuid>
 </TestCaseEntity>

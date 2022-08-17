@@ -1,0 +1,81 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Pemrakarsa,,,,2022-08-17 23:35:31,2022-08-17 23:38:57,3m - 25.761s,PASSED
+,,,,,,,
+Test Cases/00. Login,,,,2022-08-17 23:35:32,2022-08-17 23:36:21,48.975s,PASSED
+try,,,,2022-08-17 23:35:33,2022-08-17 23:36:03,29.843s,PASSED
+"callTestCase(findTestCase(""Test Cases/Create User Tester""), [:], STOP_ON_FAILURE)",,,,2022-08-17 23:36:03,2022-08-17 23:36:05,2.480s,PASSED
+"setText(findTestObject(""id"", [""id"":""id.co.bri.brispotnew:id/tv_username""]), ""00251612"", 0)",,,,2022-08-17 23:36:05,2022-08-17 23:36:13,7.348s,PASSED
+"setText(findTestObject(""id"", [""id"":""id.co.bri.brispotnew:id/tv_password""]), ""P@ssw0rd"", 0)",,,,2022-08-17 23:36:13,2022-08-17 23:36:15,2.129s,PASSED
+"tap(findTestObject(""id"", [""id"":""id.co.bri.brispotnew:id/btn_login""]), 0)",,,,2022-08-17 23:36:15,2022-08-17 23:36:16,1.091s,PASSED
+"tap(findTestObject(""id"", [""id"":""id.co.bri.brispotnew:id/cBox""]), 0)",,,,2022-08-17 23:36:16,2022-08-17 23:36:20,4.181s,PASSED
+"tap(findTestObject(""id"", [""id"":""id.co.bri.brispotnew:id/btn_yes""]), 0)",,,,2022-08-17 23:36:20,2022-08-17 23:36:21,0.795s,PASSED
+,,,,,,,
+Test Cases/01. Create Data Pemasaran,,,,2022-08-17 23:36:21,2022-08-17 23:38:57,2m - 36.033s,PASSED
+"tap(findTestObject(""text"", [""text"":""Pemasaran""]), 0)",,,,2022-08-17 23:36:22,2022-08-17 23:36:26,3.971s,PASSED
+"tap(findTestObject(""id"", [""id"":""id.co.bri.brispotnew:id/btn_tambah_data_cpp""]), 0)",,,,2022-08-17 23:36:26,2022-08-17 23:36:30,3.605s,PASSED
+"tap(findTestObject(""text"", [""text"":""SME""]), 0)",,,,2022-08-17 23:36:30,2022-08-17 23:36:32,2.283s,PASSED
+"tap(findTestObject(""text"", [""text"":""PRIBADI""]), 0)",,,,2022-08-17 23:36:32,2022-08-17 23:36:33,1.302s,PASSED
+"tap(findTestObject(""id"", [""id"":""id.co.bri.brispotnew:id/btn_cam""]), 0)",,,,2022-08-17 23:36:33,2022-08-17 23:36:38,4.973s,PASSED
+"tap(findTestObject(""id"", [""id"":""id.co.bri.brispotnew:id/tvItem1""]), 0)",,,,2022-08-17 23:36:38,2022-08-17 23:36:39,0.945s,PASSED
+"tap(findTestObject(""id"", [""id"":""android:id/button1""]), 0)",,,,2022-08-17 23:36:39,2022-08-17 23:36:41,1.420s,PASSED
+"tap(findTestObject(""text"", [""text"":""Shutter""]), 0)",,,,2022-08-17 23:36:41,2022-08-17 23:36:43,2.142s,PASSED
+"tap(findTestObject(""id"", [""id"":""com.sec.android.app.camera:id/okay""]), 0)",,,,2022-08-17 23:36:43,2022-08-17 23:36:46,3.454s,PASSED
+"scrollToText(""UBAH LOKASI"")",,,,2022-08-17 23:36:46,2022-08-17 23:36:52,5.203s,PASSED
+"tap(findTestObject(""id"", [""id"":""id.co.bri.brispotnew:id/change_loc""]), 0)",,,,2022-08-17 23:36:52,2022-08-17 23:36:52,0.651s,PASSED
+"tap(findTestObject(""text"", [""text"":""OK""]), 0)",,,,2022-08-17 23:36:52,2022-08-17 23:36:56,3.872s,PASSED
+"tap(findTestObject(""text"", [""text"":""OK""]), 0)",,,,2022-08-17 23:36:56,2022-08-17 23:36:57,1.243s,PASSED
+"tap(findTestObject(""id"", [""id"":""id.co.bri.brispotnew:id/buttonSet""]), 0)",,,,2022-08-17 23:36:57,2022-08-17 23:36:58,0.537s,PASSED
+"tap(findTestObject(""id"", [""id"":""id.co.bri.brispotnew:id/btn_next""]), 0)",,,,2022-08-17 23:36:58,2022-08-17 23:37:00,1.969s,PASSED
+"setText(findTestObject(""id"", [""id"":""id.co.bri.brispotnew:id/nik_cpp""]), ""1000200030004001"", 0)",,,,2022-08-17 23:37:00,2022-08-17 23:37:02,2.717s,PASSED
+"setText(findTestObject(""id"", [""id"":""id.co.bri.brispotnew:id/nama_cpp""]), ""PPND Katalon"", 0)",,,,2022-08-17 23:37:02,2022-08-17 23:37:04,1.989s,PASSED
+"tap(findTestObject(""id"", [""id"":""id.co.bri.brispotnew:id/radio_pria""]), 0)",,,,2022-08-17 23:37:04,2022-08-17 23:37:05,0.852s,PASSED
+"tap(findTestObject(""id"", [""id"":""id.co.bri.brispotnew:id/radio_single""]), 0)",,,,2022-08-17 23:37:05,2022-08-17 23:37:06,0.861s,PASSED
+"setText(findTestObject(""id"", [""id"":""id.co.bri.brispotnew:id/tmp_lahir""]), ""Jakarta"", 0)",,,,2022-08-17 23:37:06,2022-08-17 23:37:08,2.010s,PASSED
+"scrollToText(""Bidang Usaha"")",,,,2022-08-17 23:37:08,2022-08-17 23:37:13,4.303s,PASSED
+"setText(findTestObject(""id"", [""id"":""id.co.bri.brispotnew:id/tgl_lahir""]), ""1980-08-16"", 0)",,,,2022-08-17 23:37:13,2022-08-17 23:37:14,1.728s,PASSED
+"setText(findTestObject(""id"", [""id"":""id.co.bri.brispotnew:id/hp""]), ""081234567890"", 0)",,,,2022-08-17 23:37:14,2022-08-17 23:37:17,2.409s,PASSED
+"setText(findTestObject(""id"", [""id"":""id.co.bri.brispotnew:id/email""]), ""dummy@gmail.com"", 0)",,,,2022-08-17 23:37:17,2022-08-17 23:37:19,1.940s,PASSED
+"tap(findTestObject(""id"", [""id"":""id.co.bri.brispotnew:id/bidang_usaha""]), 0)",,,,2022-08-17 23:37:19,2022-08-17 23:37:19,0.849s,PASSED
+"tap(findTestObject(""id"", [""id"":""id.co.bri.brispotnew:id/desc2_text""]), 0)",,,,2022-08-17 23:37:19,2022-08-17 23:37:21,1.801s,PASSED
+"tap(findTestObject(""id"", [""id"":""id.co.bri.brispotnew:id/btn_next""]), 0)",,,,2022-08-17 23:37:21,2022-08-17 23:37:22,1.240s,PASSED
+"setText(findTestObject(""id"", [""id"":""id.co.bri.brispotnew:id/alamat""]), ""jalan dummy"", 0)",,,,2022-08-17 23:37:22,2022-08-17 23:37:25,2.739s,PASSED
+"setText(findTestObject(""id"", [""id"":""id.co.bri.brispotnew:id/rt""]), ""1"", 0)",,,,2022-08-17 23:37:25,2022-08-17 23:37:27,1.924s,PASSED
+"setText(findTestObject(""id"", [""id"":""id.co.bri.brispotnew:id/rw""]), ""1"", 0)",,,,2022-08-17 23:37:27,2022-08-17 23:37:29,1.914s,PASSED
+"scrollToText(""Kelurahan"")",,,,2022-08-17 23:37:29,2022-08-17 23:37:32,3.424s,PASSED
+"tap(findTestObject(""id"", [""id"":""id.co.bri.brispotnew:id/kode_pos""]), 0)",,,,2022-08-17 23:37:32,2022-08-17 23:37:33,0.540s,PASSED
+"tap(findTestObject(""text"", [""text"":""15550006""]), 0)",,,,2022-08-17 23:37:33,2022-08-17 23:37:35,1.810s,PASSED
+"tap(findTestObject(""id"", [""id"":""id.co.bri.brispotnew:id/btn_next""]), 0)",,,,2022-08-17 23:37:35,2022-08-17 23:37:36,1.162s,PASSED
+"setText(findTestObject(""id"", [""id"":""id.co.bri.brispotnew:id/ratas_penjualan""]), ""100000000"", 0)",,,,2022-08-17 23:37:36,2022-08-17 23:37:40,4.140s,PASSED
+"setText(findTestObject(""id"", [""id"":""id.co.bri.brispotnew:id/txtLabaPerbulan""]), ""80000000"", 0)",,,,2022-08-17 23:37:40,2022-08-17 23:37:42,1.891s,PASSED
+"setText(findTestObject(""id"", [""id"":""id.co.bri.brispotnew:id/txtPotensiTopUp""]), ""30000000"", 0)",,,,2022-08-17 23:37:42,2022-08-17 23:37:44,1.887s,PASSED
+"setText(findTestObject(""id"", [""id"":""id.co.bri.brispotnew:id/txtProdukBRI""]), ""BRITAMA"", 0)",,,,2022-08-17 23:37:44,2022-08-17 23:37:46,1.924s,PASSED
+"tap(findTestObject(""id"", [""id"":""id.co.bri.brispotnew:id/tambah_bri""]), 0)",,,,2022-08-17 23:37:46,2022-08-17 23:37:47,0.787s,PASSED
+"tap(findTestObject(""id"", [""id"":""id.co.bri.brispotnew:id/nama_bank""]), 0)",,,,2022-08-17 23:37:47,2022-08-17 23:37:48,1.833s,PASSED
+"tap(findTestObject(""text"", [""text"":""Bank Mandiri""]), 0)",,,,2022-08-17 23:37:48,2022-08-17 23:37:50,1.622s,PASSED
+"setText(findTestObject(""id"", [""id"":""id.co.bri.brispotnew:id/norek""]), ""9192939495969798"", 0)",,,,2022-08-17 23:37:50,2022-08-17 23:37:52,1.985s,PASSED
+"setText(findTestObject(""id"", [""id"":""id.co.bri.brispotnew:id/mutasi_debit""]), ""100000000"", 0)",,,,2022-08-17 23:37:52,2022-08-17 23:37:54,1.806s,PASSED
+"setText(findTestObject(""id"", [""id"":""id.co.bri.brispotnew:id/mutasi_kredit""]), ""10000000"", 0)",,,,2022-08-17 23:37:54,2022-08-17 23:37:56,1.809s,PASSED
+"tap(findTestObject(""id"", [""id"":""id.co.bri.brispotnew:id/btn_simpan""]), 0)",,,,2022-08-17 23:37:56,2022-08-17 23:37:56,0.722s,PASSED
+"scrollToText(""Bank Mandiri"")",,,,2022-08-17 23:37:56,2022-08-17 23:38:01,4.525s,PASSED
+"tap(findTestObject(""id"", [""id"":""id.co.bri.brispotnew:id/btn_next""]), 0)",,,,2022-08-17 23:38:01,2022-08-17 23:38:01,0.548s,PASSED
+"tap(findTestObject(""id"", [""id"":""id.co.bri.brispotnew:id/btnTambahRekening""]), 0)",,,,2022-08-17 23:38:01,2022-08-17 23:38:04,2.873s,PASSED
+"setText(findTestObject(""id"", [""id"":""id.co.bri.brispotnew:id/txtNomorRekening""]), ""020601000001500"", 0)",,,,2022-08-17 23:38:04,2022-08-17 23:38:07,2.731s,PASSED
+"tap(findTestObject(""id"", [""id"":""id.co.bri.brispotnew:id/btnCekRekening""]), 0)",,,,2022-08-17 23:38:07,2022-08-17 23:38:08,0.808s,PASSED
+"tap(findTestObject(""id"", [""id"":""id.co.bri.brispotnew:id/btnSimpanRekening""]), 0)",,,,2022-08-17 23:38:08,2022-08-17 23:38:10,1.809s,PASSED
+"tap(findTestObject(""id"", [""id"":""id.co.bri.brispotnew:id/chipBrimo""]), 0)",,,,2022-08-17 23:38:10,2022-08-17 23:38:11,1.281s,PASSED
+"tap(findTestObject(""id"", [""id"":""id.co.bri.brispotnew:id/chipKartuKredit""]), 0)",,,,2022-08-17 23:38:11,2022-08-17 23:38:12,0.860s,PASSED
+"tap(findTestObject(""id"", [""id"":""id.co.bri.brispotnew:id/btn_next""]), 0)",,,,2022-08-17 23:38:12,2022-08-17 23:38:13,0.871s,PASSED
+"tap(findTestObject(""id"", [""id"":""id.co.bri.brispotnew:id/btn_simpan_data""]), 0)",,,,2022-08-17 23:38:13,2022-08-17 23:38:15,2.750s,PASSED
+"setText(findTestObject(""id"", [""id"":""id.co.bri.brispotnew:id/amount""]), ""2000000000"", 0)",,,,2022-08-17 23:38:15,2022-08-17 23:38:18,2.796s,PASSED
+"setText(findTestObject(""id"", [""id"":""id.co.bri.brispotnew:id/periode""]), ""60"", 0)",,,,2022-08-17 23:38:18,2022-08-17 23:38:20,1.785s,PASSED
+"setText(findTestObject(""id"", [""id"":""id.co.bri.brispotnew:id/ket""]), ""Modal usaha"", 0)",,,,2022-08-17 23:38:20,2022-08-17 23:38:22,1.754s,PASSED
+"tap(findTestObject(""id"", [""id"":""id.co.bri.brispotnew:id/btn_ok""]), 0)",,,,2022-08-17 23:38:22,2022-08-17 23:38:23,0.697s,PASSED
+"setText(findTestObject(""id"", [""id"":""id.co.bri.brispotnew:id/etSearch""]), ""PPND Katalon"", 0)",,,,2022-08-17 23:38:23,2022-08-17 23:38:28,5.777s,PASSED
+"tap(findTestObject(""text"", [""text"":""1000200030004001""]), 0)",,,,2022-08-17 23:38:28,2022-08-17 23:38:29,0.979s,PASSED
+"tap(findTestObject(""id"", [""id"":""id.co.bri.brispotnew:id/fab_expand_menu_button""]), 0)",,,,2022-08-17 23:38:29,2022-08-17 23:38:30,1.242s,PASSED
+"tap(findTestObject(""text"", [""text"":""Lanjut""]), 0)",,,,2022-08-17 23:38:30,2022-08-17 23:38:32,1.059s,PASSED
+"for ([i = 0, i < 5, (i++)])",,,,2022-08-17 23:38:32,2022-08-17 23:38:48,16.271s,PASSED
+"tap(findTestObject(""id"", [""id"":""id.co.bri.brispotnew:id/btn_next""]), 0)",,,,2022-08-17 23:38:48,2022-08-17 23:38:50,2.412s,PASSED
+"tap(findTestObject(""id"", [""id"":""id.co.bri.brispotnew:id/btn_lanjut_prakarsa""]), 0)",,,,2022-08-17 23:38:50,2022-08-17 23:38:51,0.478s,PASSED
+"tap(findTestObject(""id"", [""id"":""id.co.bri.brispotnew:id/btn_ok""]), 0)",,,,2022-08-17 23:38:51,2022-08-17 23:38:53,1.974s,PASSED
+"tap(findTestObject(""id"", [""id"":""id.co.bri.brispotnew:id/progress_finish""]), 0)",,,,2022-08-17 23:38:53,2022-08-17 23:38:57,4.376s,PASSED

@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Pemrakarsa,,,,2022-08-17 23:21:31,2022-08-17 23:22:40,1m - 8.525s,FAILED
+,,,,,,,
+Test Cases/Login,,,,2022-08-17 23:21:32,2022-08-17 23:22:07,34.986s,FAILED
+try,,,,2022-08-17 23:21:33,2022-08-17 23:22:02,29.307s,PASSED
+"callTestCase(findTestCase(""Test Cases/Create User Tester""), [:], STOP_ON_FAILURE)",,,,2022-08-17 23:22:02,2022-08-17 23:22:07,4.466s,FAILED
+,,,,,,,
+Test Cases/01. Create Data Pemasaran,,,,2022-08-17 23:22:07,2022-08-17 23:22:40,32.782s,FAILED
+"tap(findTestObject(""text"", [""text"":""Pemasaran""]), 0)",,,,2022-08-17 23:22:08,2022-08-17 23:22:40,31.679s,FAILED

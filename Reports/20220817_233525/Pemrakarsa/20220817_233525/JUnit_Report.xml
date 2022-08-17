@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Pemrakarsa" time="205.761" tests="2" failures="0" errors="0">
+   <testsuite name="Pemrakarsa" tests="2" failures="0" errors="0" time="205.761" skipped="0" timestamp="2022-08-17 23:35:31" hostname="ansct - DESKTOP-J7AMOGN" id="Test Suites/Pemrakarsa">
+      <properties>
+         <property name="deviceName" value="samsung SM-J730G (Android 9)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\BRISPOT\\Katalon\\brispot ppnd\\Reports\\20220817_233525\\Pemrakarsa\\20220817_233525"/>
+         <property name="logFiles" value="E:\\BRISPOT\\Katalon\\brispot ppnd\\Reports\\20220817_233525\\Pemrakarsa\\20220817_233525\\appium.log, E:\\BRISPOT\\Katalon\\brispot ppnd\\Reports\\20220817_233525\\Pemrakarsa\\20220817_233525\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ansct - DESKTOP-J7AMOGN"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.4.1.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="SM-J730G"/>
+         <property name="hostAddress" value="192.168.134.88"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="52009efcee2e8435"/>
+         <property name="deviceName" value="samsung SM-J730G (Android 9)"/>
+         <property name="deviceOSVersion" value="9"/>
+      </properties>
+      <testcase name="Test Cases/00. Login" time="48.975" classname="Test Cases/00. Login" status="PASSED">
+         <system-out><![CDATA[2022-08-17 23:35:32 - [TEST_CASE][PASSED] - Test Cases/00. Login: Test Cases/00. Login
+
+2022-08-17 23:35:33 - [TEST_STEP][PASSED] - try: Starting app with application ID: 'id.co.bri.brispotnew'
+
+2022-08-17 23:35:33 - [TEST_STEP][PASSED] - startExistingApplication("id.co.bri.brispotnew"): Starting app with application ID: 'id.co.bri.brispotnew'
+
+2022-08-17 23:35:34 - [MESSAGE][INFO] - User set preference: ['appWaitActivity', '*']
+
+2022-08-17 23:35:34 - [MESSAGE][INFO] - User set preference: ['deviceId', '']
+
+2022-08-17 23:35:34 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2022-08-17 23:35:38 - [MESSAGE][INFO] - Appium server started on port 61,120
+
+2022-08-17 23:36:02 - [MESSAGE][INFO] - Failed to get OS statusbar's information using default method.
+
+2022-08-17 23:36:03 - [MESSAGE][PASSED] - Starting app with application ID: 'id.co.bri.brispotnew'
+
+2022-08-17 23:36:03 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/Create User Tester"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Create User Tester' successfully
+
+2022-08-17 23:36:03 - [TEST_CASE][PASSED] - Test Cases/Create User Tester: Test Cases/Create User Tester
+
+2022-08-17 23:36:04 - [TEST_STEP][PASSED] - sendRequest(findTestObject("Create User Tester")): Send request successfully
+
+2022-08-17 23:36:05 - [MESSAGE][INFO] - HAR: E:\BRISPOT\Katalon\brispot ppnd\Reports\20220817_233525\Pemrakarsa\20220817_233525\requests\main\0.har
+
+2022-08-17 23:36:05 - [MESSAGE][PASSED] - Send request successfully
+
+2022-08-17 23:36:05 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Create User Tester' successfully
+
+2022-08-17 23:36:05 - [TEST_STEP][PASSED] - setText(findTestObject("id", ["id":"id.co.bri.brispotnew:id/tv_username"]), "00251612", 0): Text '00251612' has been set to element 'Object Repository/id'
+
+2022-08-17 23:36:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-08-17 23:36:13 - [MESSAGE][PASSED] - Text '00251612' has been set to element 'Object Repository/id'
+
+2022-08-17 23:36:13 - [TEST_STEP][PASSED] - setText(findTestObject("id", ["id":"id.co.bri.brispotnew:id/tv_password"]), "P@ssw0rd", 0): Text 'P@ssw0rd' has been set to element 'Object Repository/id'
+
+2022-08-17 23:36:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-08-17 23:36:15 - [MESSAGE][PASSED] - Text 'P@ssw0rd' has been set to element 'Object Repository/id'
+
+2022-08-17 23:36:15 - [TEST_STEP][PASSED] - tap(findTestObject("id", ["id":"id.co.bri.brispotnew:id/btn_login"]), 0): Tapped on element 'Object Repository/id'
+
+2022-08-17 23:36:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-08-17 23:36:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/id'
+
+2022-08-17 23:36:16 - [TEST_STEP][PASSED] - tap(findTestObject("id", ["id":"id.co.bri.brispotnew:id/cBox"]), 0): Tapped on element 'Object Repository/id'
+
+2022-08-17 23:36:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-08-17 23:36:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/id'
+
+2022-08-17 23:36:20 - [TEST_STEP][PASSED] - tap(findTestObject("id", ["id":"id.co.bri.brispotnew:id/btn_yes"]), 0): Tapped on element 'Object Repository/id'
+
+2022-08-17 23:36:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-08-17 23:36:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/id']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01. Create Data Pemasaran" time="156.033" classname="Test Cases/01. Create Data Pemasaran" status="PASSED">
+         <system-out><![CDATA[2022-08-17 23:36:21 - [TEST_CASE][PASSED] - Test Cases/01. Create Data Pemasaran: Test Cases/01. Create Data Pemasaran
+
+2022-08-17 23:36:22 - [TEST_STEP][PASSED] - tap(findTestObject("text", ["text":"Pemasaran"]), 0): Tapped on element 'Object Repository/text'
+
+2022-08-17 23:36:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-08-17 23:36:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/text'
+
+2022-08-17 23:36:26 - [TEST_STEP][PASSED] - tap(findTestObject("id", ["id":"id.co.bri.brispotnew:id/btn_tambah_data_cpp"]), 0): Tapped on element 'Object Repository/id'
+
+2022-08-17 23:36:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-08-17 23:36:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/id'
+
+2022-08-17 23:36:30 - [TEST_STEP][PASSED] - tap(findTestObject("text", ["text":"SME"]), 0): Tapped on element 'Object Repository/text'
+
+2022-08-17 23:36:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-08-17 23:36:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/text'
+
+2022-08-17 23:36:32 - [TEST_STEP][PASSED] - tap(findTestObject("text", ["text":"PRIBADI"]), 0): Tapped on element 'Object Repository/text'
+
+2022-08-17 23:36:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-08-17 23:36:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/text'
+
+2022-08-17 23:36:33 - [TEST_STEP][PASSED] - tap(findTestObject("id", ["id":"id.co.bri.brispotnew:id/btn_cam"]), 0): Tapped on element 'Object Repository/id'
+
+2022-08-17 23:36:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-08-17 23:36:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/id'
+
+2022-08-17 23:36:38 - [TEST_STEP][PASSED] - tap(findTestObject("id", ["id":"id.co.bri.brispotnew:id/tvItem1"]), 0): Tapped on element 'Object Repository/id'
+
+2022-08-17 23:36:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-08-17 23:36:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/id'
+
+2022-08-17 23:36:39 - [TEST_STEP][PASSED] - tap(findTestObject("id", ["id":"android:id/button1"]), 0): Tapped on element 'Object Repository/id'
+
+2022-08-17 23:36:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-08-17 23:36:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/id'
+
+2022-08-17 23:36:41 - [TEST_STEP][PASSED] - tap(findTestObject("text", ["text":"Shutter"]), 0): Tapped on element 'Object Repository/text'
+
+2022-08-17 23:36:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-08-17 23:36:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/text'
+
+2022-08-17 23:36:43 - [TEST_STEP][PASSED] - tap(findTestObject("id", ["id":"com.sec.android.app.camera:id/okay"]), 0): Tapped on element 'Object Repository/id'
+
+2022-08-17 23:36:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-08-17 23:36:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/id'
+
+2022-08-17 23:36:46 - [TEST_STEP][PASSED] - scrollToText("UBAH LOKASI"): Scrolling to text 'UBAH LOKASI' successfully
+
+2022-08-17 23:36:51 - [MESSAGE][PASSED] - Scrolling to text 'UBAH LOKASI' successfully
+
+2022-08-17 23:36:52 - [TEST_STEP][PASSED] - tap(findTestObject("id", ["id":"id.co.bri.brispotnew:id/change_loc"]), 0): Tapped on element 'Object Repository/id'
+
+2022-08-17 23:36:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-08-17 23:36:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/id'
+
+2022-08-17 23:36:52 - [TEST_STEP][PASSED] - tap(findTestObject("text", ["text":"OK"]), 0): Tapped on element 'Object Repository/text'
+
+2022-08-17 23:36:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-08-17 23:36:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/text'
+
+2022-08-17 23:36:56 - [TEST_STEP][PASSED] - tap(findTestObject("text", ["text":"OK"]), 0): Tapped on element 'Object Repository/text'
+
+2022-08-17 23:36:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-08-17 23:36:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/text'
+
+2022-08-17 23:36:57 - [TEST_STEP][PASSED] - tap(findTestObject("id", ["id":"id.co.bri.brispotnew:id/buttonSet"]), 0): Tapped on element 'Object Repository/id'
+
+2022-08-17 23:36:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-08-17 23:36:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/id'
+
+2022-08-17 23:36:58 - [TEST_STEP][PASSED] - tap(findTestObject("id", ["id":"id.co.bri.brispotnew:id/btn_next"]), 0): Tapped on element 'Object Repository/id'
+
+2022-08-17 23:36:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-08-17 23:37:00 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/id'
+
+2022-08-17 23:37:00 - [TEST_STEP][PASSED] - setText(findTestObject("id", ["id":"id.co.bri.brispotnew:id/nik_cpp"]), "1000200030004001", 0): Text '1000200030004001' has been set to element 'Object Repository/id'
+
+2022-08-17 23:37:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-08-17 23:37:02 - [MESSAGE][PASSED] - Text '1000200030004001' has been set to element 'Object Repository/id'
+
+2022-08-17 23:37:02 - [TEST_STEP][PASSED] - setText(findTestObject("id", ["id":"id.co.bri.brispotnew:id/nama_cpp"]), "PPND Katalon", 0): Text 'PPND Katalon' has been set to element 'Object Repository/id'
+
+2022-08-17 23:37:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-08-17 23:37:04 - [MESSAGE][PASSED] - Text 'PPND Katalon' has been set to element 'Object Repository/id'
+
+2022-08-17 23:37:04 - [TEST_STEP][PASSED] - tap(findTestObject("id", ["id":"id.co.bri.brispotnew:id/radio_pria"]), 0): Tapped on element 'Object Repository/id'
+
+2022-08-17 23:37:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-08-17 23:37:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/id'
+
+2022-08-17 23:37:05 - [TEST_STEP][PASSED] - tap(findTestObject("id", ["id":"id.co.bri.brispotnew:id/radio_single"]), 0): Tapped on element 'Object Repository/id'
+
+2022-08-17 23:37:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-08-17 23:37:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/id'
+
+2022-08-17 23:37:06 - [TEST_STEP][PASSED] - setText(findTestObject("id", ["id":"id.co.bri.brispotnew:id/tmp_lahir"]), "Jakarta", 0): Text 'Jakarta' has been set to element 'Object Repository/id'
+
+2022-08-17 23:37:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-08-17 23:37:08 - [MESSAGE][PASSED] - Text 'Jakarta' has been set to element 'Object Repository/id'
+
+2022-08-17 23:37:08 - [TEST_STEP][PASSED] - scrollToText("Bidang Usaha"): Scrolling to text 'Bidang Usaha' successfully
+
+2022-08-17 23:37:12 - [MESSAGE][PASSED] - Scrolling to text 'Bidang Usaha' successfully
+
+2022-08-17 23:37:13 - [TEST_STEP][PASSED] - setText(findTestObject("id", ["id":"id.co.bri.brispotnew:id/tgl_lahir"]), "1980-08-16", 0): Text '1980-08-16' has been set to element 'Object Repository/id'
+
+2022-08-17 23:37:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-08-17 23:37:14 - [MESSAGE][PASSED] - Text '1980-08-16' has been set to element 'Object Repository/id'
+
+2022-08-17 23:37:14 - [TEST_STEP][PASSED] - setText(findTestObject("id", ["id":"id.co.bri.brispotnew:id/hp"]), "081234567890", 0): Text '081234567890' has been set to element 'Object Repository/id'
+
+2022-08-17 23:37:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-08-17 23:37:17 - [MESSAGE][PASSED] - Text '081234567890' has been set to element 'Object Repository/id'
+
+2022-08-17 23:37:17 - [TEST_STEP][PASSED] - setText(findTestObject("id", ["id":"id.co.bri.brispotnew:id/email"]), "dummy@gmail.com", 0): Text 'dummy@gmail.com' has been set to element 'Object Repository/id'
+
+2022-08-17 23:37:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-08-17 23:37:19 - [MESSAGE][PASSED] - Text 'dummy@gmail.com' has been set to element 'Object Repository/id'
+
+2022-08-17 23:37:19 - [TEST_STEP][PASSED] - tap(findTestObject("id", ["id":"id.co.bri.brispotnew:id/bidang_usaha"]), 0): Tapped on element 'Object Repository/id'
+
+2022-08-17 23:37:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-08-17 23:37:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/id'
+
+2022-08-17 23:37:19 - [TEST_STEP][PASSED] - tap(findTestObject("id", ["id":"id.co.bri.brispotnew:id/desc2_text"]), 0): Tapped on element 'Object Repository/id'
+
+2022-08-17 23:37:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-08-17 23:37:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/id'
+
+2022-08-17 23:37:21 - [TEST_STEP][PASSED] - tap(findTestObject("id", ["id":"id.co.bri.brispotnew:id/btn_next"]), 0): Tapped on element 'Object Repository/id'
+
+2022-08-17 23:37:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-08-17 23:37:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/id'
+
+2022-08-17 23:37:22 - [TEST_STEP][PASSED] - setText(findTestObject("id", ["id":"id.co.bri.brispotnew:id/alamat"]), "jalan dummy", 0): Text 'jalan dummy' has been set to element 'Object Repository/id'
+
+2022-08-17 23:37:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-08-17 23:37:25 - [MESSAGE][PASSED] - Text 'jalan dummy' has been set to element 'Object Repository/id'
+
+2022-08-17 23:37:25 - [TEST_STEP][PASSED] - setText(findTestObject("id", ["id":"id.co.bri.brispotnew:id/rt"]), "1", 0): Text '1' has been set to element 'Object Repository/id'
+
+2022-08-17 23:37:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-08-17 23:37:27 - [MESSAGE][PASSED] - Text '1' has been set to element 'Object Repository/id'
+
+2022-08-17 23:37:27 - [TEST_STEP][PASSED] - setText(findTestObject("id", ["id":"id.co.bri.brispotnew:id/rw"]), "1", 0): Text '1' has been set to element 'Object Repository/id'
+
+2022-08-17 23:37:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-08-17 23:37:29 - [MESSAGE][PASSED] - Text '1' has been set to element 'Object Repository/id'
+
+2022-08-17 23:37:29 - [TEST_STEP][PASSED] - scrollToText("Kelurahan"): Scrolling to text 'Kelurahan' successfully
+
+2022-08-17 23:37:32 - [MESSAGE][PASSED] - Scrolling to text 'Kelurahan' successfully
+
+2022-08-17 23:37:32 - [TEST_STEP][PASSED] - tap(findTestObject("id", ["id":"id.co.bri.brispotnew:id/kode_pos"]), 0): Tapped on element 'Object Repository/id'
+
+2022-08-17 23:37:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-08-17 23:37:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/id'
+
+2022-08-17 23:37:33 - [TEST_STEP][PASSED] - tap(findTestObject("text", ["text":"15550006"]), 0): Tapped on element 'Object Repository/text'
+
+2022-08-17 23:37:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-08-17 23:37:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/text'
+
+2022-08-17 23:37:35 - [TEST_STEP][PASSED] - tap(findTestObject("id", ["id":"id.co.bri.brispotnew:id/btn_next"]), 0): Tapped on element 'Object Repository/id'
+
+2022-08-17 23:37:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-08-17 23:37:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/id'
+
+2022-08-17 23:37:36 - [TEST_STEP][PASSED] - setText(findTestObject("id", ["id":"id.co.bri.brispotnew:id/ratas_penjualan"]), "100000000", 0): Text '100000000' has been set to element 'Object Repository/id'
+
+2022-08-17 23:37:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-08-17 23:37:40 - [MESSAGE][PASSED] - Text '100000000' has been set to element 'Object Repository/id'
+
+2022-08-17 23:37:40 - [TEST_STEP][PASSED] - setText(findTestObject("id", ["id":"id.co.bri.brispotnew:id/txtLabaPerbulan"]), "80000000", 0): Text '80000000' has been set to element 'Object Repository/id'
+
+2022-08-17 23:37:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-08-17 23:37:42 - [MESSAGE][PASSED] - Text '80000000' has been set to element 'Object Repository/id'
+
+2022-08-17 23:37:42 - [TEST_STEP][PASSED] - setText(findTestObject("id", ["id":"id.co.bri.brispotnew:id/txtPotensiTopUp"]), "30000000", 0): Text '30000000' has been set to element 'Object Repository/id'
+
+2022-08-17 23:37:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-08-17 23:37:44 - [MESSAGE][PASSED] - Text '30000000' has been set to element 'Object Repository/id'
+
+2022-08-17 23:37:44 - [TEST_STEP][PASSED] - setText(findTestObject("id", ["id":"id.co.bri.brispotnew:id/txtProdukBRI"]), "BRITAMA", 0): Text 'BRITAMA' has been set to element 'Object Repository/id'
+
+2022-08-17 23:37:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-08-17 23:37:46 - [MESSAGE][PASSED] - Text 'BRITAMA' has been set to element 'Object Repository/id'
+
+2022-08-17 23:37:46 - [TEST_STEP][PASSED] - tap(findTestObject("id", ["id":"id.co.bri.brispotnew:id/tambah_bri"]), 0): Tapped on element 'Object Repository/id'
+
+2022-08-17 23:37:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-08-17 23:37:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/id'
+
+2022-08-17 23:37:47 - [TEST_STEP][PASSED] - tap(findTestObject("id", ["id":"id.co.bri.brispotnew:id/nama_bank"]), 0): Tapped on element 'Object Repository/id'
+
+2022-08-17 23:37:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-08-17 23:37:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/id'
+
+2022-08-17 23:37:48 - [TEST_STEP][PASSED] - tap(findTestObject("text", ["text":"Bank Mandiri"]), 0): Tapped on element 'Object Repository/text'
+
+2022-08-17 23:37:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-08-17 23:37:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/text'
+
+2022-08-17 23:37:50 - [TEST_STEP][PASSED] - setText(findTestObject("id", ["id":"id.co.bri.brispotnew:id/norek"]), "9192939495969798", 0): Text '9192939495969798' has been set to element 'Object Repository/id'
+
+2022-08-17 23:37:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-08-17 23:37:52 - [MESSAGE][PASSED] - Text '9192939495969798' has been set to element 'Object Repository/id'
+
+2022-08-17 23:37:52 - [TEST_STEP][PASSED] - setText(findTestObject("id", ["id":"id.co.bri.brispotnew:id/mutasi_debit"]), "100000000", 0): Text '100000000' has been set to element 'Object Repository/id'
+
+2022-08-17 23:37:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-08-17 23:37:54 - [MESSAGE][PASSED] - Text '100000000' has been set to element 'Object Repository/id'
+
+2022-08-17 23:37:54 - [TEST_STEP][PASSED] - setText(findTestObject("id", ["id":"id.co.bri.brispotnew:id/mutasi_kredit"]), "10000000", 0): Text '10000000' has been set to element 'Object Repository/id'
+
+2022-08-17 23:37:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-08-17 23:37:56 - [MESSAGE][PASSED] - Text '10000000' has been set to element 'Object Repository/id'
+
+2022-08-17 23:37:56 - [TEST_STEP][PASSED] - tap(findTestObject("id", ["id":"id.co.bri.brispotnew:id/btn_simpan"]), 0): Tapped on element 'Object Repository/id'
+
+2022-08-17 23:37:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-08-17 23:37:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/id'
+
+2022-08-17 23:37:56 - [TEST_STEP][PASSED] - scrollToText("Bank Mandiri"): Scrolling to text 'Bank Mandiri' successfully
+
+2022-08-17 23:38:01 - [MESSAGE][PASSED] - Scrolling to text 'Bank Mandiri' successfully
+
+2022-08-17 23:38:01 - [TEST_STEP][PASSED] - tap(findTestObject("id", ["id":"id.co.bri.brispotnew:id/btn_next"]), 0): Tapped on element 'Object Repository/id'
+
+2022-08-17 23:38:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-08-17 23:38:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/id'
+
+2022-08-17 23:38:01 - [TEST_STEP][PASSED] - tap(findTestObject("id", ["id":"id.co.bri.brispotnew:id/btnTambahRekening"]), 0): Tapped on element 'Object Repository/id'
+
+2022-08-17 23:38:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-08-17 23:38:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/id'
+
+2022-08-17 23:38:04 - [TEST_STEP][PASSED] - setText(findTestObject("id", ["id":"id.co.bri.brispotnew:id/txtNomorRekening"]), "020601000001500", 0): Text '020601000001500' has been set to element 'Object Repository/id'
+
+2022-08-17 23:38:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-08-17 23:38:07 - [MESSAGE][PASSED] - Text '020601000001500' has been set to element 'Object Repository/id'
+
+2022-08-17 23:38:07 - [TEST_STEP][PASSED] - tap(findTestObject("id", ["id":"id.co.bri.brispotnew:id/btnCekRekening"]), 0): Tapped on element 'Object Repository/id'
+
+2022-08-17 23:38:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-08-17 23:38:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/id'
+
+2022-08-17 23:38:08 - [TEST_STEP][PASSED] - tap(findTestObject("id", ["id":"id.co.bri.brispotnew:id/btnSimpanRekening"]), 0): Tapped on element 'Object Repository/id'
+
+2022-08-17 23:38:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-08-17 23:38:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/id'
+
+2022-08-17 23:38:10 - [TEST_STEP][PASSED] - tap(findTestObject("id", ["id":"id.co.bri.brispotnew:id/chipBrimo"]), 0): Tapped on element 'Object Repository/id'
+
+2022-08-17 23:38:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-08-17 23:38:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/id'
+
+2022-08-17 23:38:11 - [TEST_STEP][PASSED] - tap(findTestObject("id", ["id":"id.co.bri.brispotnew:id/chipKartuKredit"]), 0): Tapped on element 'Object Repository/id'
+
+2022-08-17 23:38:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-08-17 23:38:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/id'
+
+2022-08-17 23:38:12 - [TEST_STEP][PASSED] - tap(findTestObject("id", ["id":"id.co.bri.brispotnew:id/btn_next"]), 0): Tapped on element 'Object Repository/id'
+
+2022-08-17 23:38:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-08-17 23:38:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/id'
+
+2022-08-17 23:38:13 - [TEST_STEP][PASSED] - tap(findTestObject("id", ["id":"id.co.bri.brispotnew:id/btn_simpan_data"]), 0): Tapped on element 'Object Repository/id'
+
+2022-08-17 23:38:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-08-17 23:38:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/id'
+
+2022-08-17 23:38:15 - [TEST_STEP][PASSED] - setText(findTestObject("id", ["id":"id.co.bri.brispotnew:id/amount"]), "2000000000", 0): Text '2000000000' has been set to element 'Object Repository/id'
+
+2022-08-17 23:38:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-08-17 23:38:18 - [MESSAGE][PASSED] - Text '2000000000' has been set to element 'Object Repository/id'
+
+2022-08-17 23:38:18 - [TEST_STEP][PASSED] - setText(findTestObject("id", ["id":"id.co.bri.brispotnew:id/periode"]), "60", 0): Text '60' has been set to element 'Object Repository/id'
+
+2022-08-17 23:38:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-08-17 23:38:20 - [MESSAGE][PASSED] - Text '60' has been set to element 'Object Repository/id'
+
+2022-08-17 23:38:20 - [TEST_STEP][PASSED] - setText(findTestObject("id", ["id":"id.co.bri.brispotnew:id/ket"]), "Modal usaha", 0): Text 'Modal usaha' has been set to element 'Object Repository/id'
+
+2022-08-17 23:38:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-08-17 23:38:22 - [MESSAGE][PASSED] - Text 'Modal usaha' has been set to element 'Object Repository/id'
+
+2022-08-17 23:38:22 - [TEST_STEP][PASSED] - tap(findTestObject("id", ["id":"id.co.bri.brispotnew:id/btn_ok"]), 0): Tapped on element 'Object Repository/id'
+
+2022-08-17 23:38:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-08-17 23:38:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/id'
+
+2022-08-17 23:38:23 - [TEST_STEP][PASSED] - setText(findTestObject("id", ["id":"id.co.bri.brispotnew:id/etSearch"]), "PPND Katalon", 0): Text 'PPND Katalon' has been set to element 'Object Repository/id'
+
+2022-08-17 23:38:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-08-17 23:38:28 - [MESSAGE][PASSED] - Text 'PPND Katalon' has been set to element 'Object Repository/id'
+
+2022-08-17 23:38:28 - [TEST_STEP][PASSED] - tap(findTestObject("text", ["text":"1000200030004001"]), 0): Tapped on element 'Object Repository/text'
+
+2022-08-17 23:38:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-08-17 23:38:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/text'
+
+2022-08-17 23:38:29 - [TEST_STEP][PASSED] - tap(findTestObject("id", ["id":"id.co.bri.brispotnew:id/fab_expand_menu_button"]), 0): Tapped on element 'Object Repository/id'
+
+2022-08-17 23:38:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-08-17 23:38:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/id'
+
+2022-08-17 23:38:30 - [TEST_STEP][PASSED] - tap(findTestObject("text", ["text":"Lanjut"]), 0): Tapped on element 'Object Repository/text'
+
+2022-08-17 23:38:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-08-17 23:38:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/text'
+
+2022-08-17 23:38:32 - [TEST_STEP][PASSED] - for ([i = 0, i < 5, (i++)]): Tapped on element 'Object Repository/id'
+
+2022-08-17 23:38:32 - [TEST_STEP][PASSED] - tap(findTestObject("id", ["id":"id.co.bri.brispotnew:id/btn_next"]), 0): Tapped on element 'Object Repository/id'
+
+2022-08-17 23:38:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-08-17 23:38:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/id'
+
+2022-08-17 23:38:35 - [TEST_STEP][PASSED] - tap(findTestObject("id", ["id":"id.co.bri.brispotnew:id/btn_next"]), 0): Tapped on element 'Object Repository/id'
+
+2022-08-17 23:38:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-08-17 23:38:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/id'
+
+2022-08-17 23:38:36 - [TEST_STEP][PASSED] - tap(findTestObject("id", ["id":"id.co.bri.brispotnew:id/btn_next"]), 0): Tapped on element 'Object Repository/id'
+
+2022-08-17 23:38:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-08-17 23:38:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/id'
+
+2022-08-17 23:38:38 - [TEST_STEP][PASSED] - tap(findTestObject("id", ["id":"id.co.bri.brispotnew:id/btn_next"]), 0): Tapped on element 'Object Repository/id'
+
+2022-08-17 23:38:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-08-17 23:38:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/id'
+
+2022-08-17 23:38:43 - [TEST_STEP][PASSED] - tap(findTestObject("id", ["id":"id.co.bri.brispotnew:id/btn_next"]), 0): Tapped on element 'Object Repository/id'
+
+2022-08-17 23:38:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-08-17 23:38:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/id'
+
+2022-08-17 23:38:48 - [TEST_STEP][PASSED] - tap(findTestObject("id", ["id":"id.co.bri.brispotnew:id/btn_next"]), 0): Tapped on element 'Object Repository/id'
+
+2022-08-17 23:38:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-08-17 23:38:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/id'
+
+2022-08-17 23:38:50 - [TEST_STEP][PASSED] - tap(findTestObject("id", ["id":"id.co.bri.brispotnew:id/btn_lanjut_prakarsa"]), 0): Tapped on element 'Object Repository/id'
+
+2022-08-17 23:38:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-08-17 23:38:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/id'
+
+2022-08-17 23:38:51 - [TEST_STEP][PASSED] - tap(findTestObject("id", ["id":"id.co.bri.brispotnew:id/btn_ok"]), 0): Tapped on element 'Object Repository/id'
+
+2022-08-17 23:38:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-08-17 23:38:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/id'
+
+2022-08-17 23:38:53 - [TEST_STEP][PASSED] - tap(findTestObject("id", ["id":"id.co.bri.brispotnew:id/progress_finish"]), 0): Tapped on element 'Object Repository/id'
+
+2022-08-17 23:38:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-08-17 23:38:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/id']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-08-17 23:35:31 - [TEST_SUITE][PASSED] - Pemrakarsa: Test Cases/01. Create Data Pemasaran]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
